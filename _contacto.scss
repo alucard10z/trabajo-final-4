@@ -1,0 +1,88 @@
+.contenedor .form .form-header .form-title{
+    font-weight: normal;
+    font-family: sans-serif;
+    color: red;
+    text-align: center;
+    padding: 14px 0;
+}
+.contenedor .form .form-header .form-title span{
+    color: whitesmoke;
+}
+.contenedor .form{
+    color: white;
+    background: rgba(0, 0, 0, .6);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+.contenedor .form .form-label{
+    display: block;
+    color: red;
+    font-size: 16px;
+    font-family: roboto;
+    position: relative;
+
+}
+.contenedor .form .form-input, .form-textarea{
+    background: rgba(0, 0, 0, .7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid red;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: whitesmoke;
+    font-family: roboto;
+}
+.contenedor .form .form-textarea{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+
+}
+.contenedor .form .btn-sumit{
+    width: 100%;
+    font-family: roboto;
+    outline: none;
+    background: red;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    transition: all .5s ease;
+}
+.contenedor .form .btn-sumit:hover{
+    background: #48817d;
+
+}
+.contenedor .form .btn-sumit:hover{
+    animation: pulsate 1s ease-in-out;
+}
+.contenedor a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.contenedor a:hover{
+    color: red;
+}
+@keyframes pulsate{
+    0%{
+        box-shadow: 0 0 25px red, 0 0 50px aquamarine;
+    }
+}
+.copy{
+    color: white;
+    justify-content: center;
+}
